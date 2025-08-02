@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F2D031022E3CE406000BE74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2D030EB2E3CE405000BE74E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D030F22E3CE405000BE74E;
+			remoteInfo = TrafficMonitoringApp;
+		};
+		F2D0310C2E3CE406000BE74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2D030EB2E3CE405000BE74E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D030F22E3CE405000BE74E;
+			remoteInfo = TrafficMonitoringApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2D030F32E3CE405000BE74E /* TrafficMonitoringApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficMonitoringApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D031012E3CE406000BE74E /* TrafficMonitoringAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficMonitoringAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D0310B2E3CE406000BE74E /* TrafficMonitoringAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficMonitoringAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F2D030F52E3CE405000BE74E /* TrafficMonitoringApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrafficMonitoringApp;
+			sourceTree = "<group>";
+		};
+		F2D031042E3CE406000BE74E /* TrafficMonitoringAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrafficMonitoringAppTests;
+			sourceTree = "<group>";
+		};
+		F2D0310E2E3CE406000BE74E /* TrafficMonitoringAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrafficMonitoringAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D030F02E3CE405000BE74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D030FE2E3CE406000BE74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D031082E3CE406000BE74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2D030EA2E3CE405000BE74E = {
+			isa = PBXGroup;
+			children = (
+				F2D030F52E3CE405000BE74E /* TrafficMonitoringApp */,
+				F2D031042E3CE406000BE74E /* TrafficMonitoringAppTests */,
+				F2D0310E2E3CE406000BE74E /* TrafficMonitoringAppUITests */,
+				F2D030F42E3CE405000BE74E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2D030F42E3CE405000BE74E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D030F32E3CE405000BE74E /* TrafficMonitoringApp.app */,
+				F2D031012E3CE406000BE74E /* TrafficMonitoringAppTests.xctest */,
+				F2D0310B2E3CE406000BE74E /* TrafficMonitoringAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2D030F22E3CE405000BE74E /* TrafficMonitoringApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D031152E3CE406000BE74E /* Build configuration list for PBXNativeTarget "TrafficMonitoringApp" */;
+			buildPhases = (
+				F2D030EF2E3CE405000BE74E /* Sources */,
+				F2D030F02E3CE405000BE74E /* Frameworks */,
+				F2D030F12E3CE405000BE74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F2D030F52E3CE405000BE74E /* TrafficMonitoringApp */,
+			);
+			name = TrafficMonitoringApp;
+			packageProductDependencies = (
+			);
+			productName = TrafficMonitoringApp;
+			productReference = F2D030F32E3CE405000BE74E /* TrafficMonitoringApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2D031002E3CE406000BE74E /* TrafficMonitoringAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D031182E3CE406000BE74E /* Build configuration list for PBXNativeTarget "TrafficMonitoringAppTests" */;
+			buildPhases = (
+				F2D030FD2E3CE406000BE74E /* Sources */,
+				F2D030FE2E3CE406000BE74E /* Frameworks */,
+				F2D030FF2E3CE406000BE74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D031032E3CE406000BE74E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F2D031042E3CE406000BE74E /* TrafficMonitoringAppTests */,
+			);
+			name = TrafficMonitoringAppTests;
+			packageProductDependencies = (
+			);
+			productName = TrafficMonitoringAppTests;
+			productReference = F2D031012E3CE406000BE74E /* TrafficMonitoringAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2D0310A2E3CE406000BE74E /* TrafficMonitoringAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D0311B2E3CE406000BE74E /* Build configuration list for PBXNativeTarget "TrafficMonitoringAppUITests" */;
+			buildPhases = (
+				F2D031072E3CE406000BE74E /* Sources */,
+				F2D031082E3CE406000BE74E /* Frameworks */,
+				F2D031092E3CE406000BE74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D0310D2E3CE406000BE74E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F2D0310E2E3CE406000BE74E /* TrafficMonitoringAppUITests */,
+			);
+			name = TrafficMonitoringAppUITests;
+			packageProductDependencies = (
+			);
+			productName = TrafficMonitoringAppUITests;
+			productReference = F2D0310B2E3CE406000BE74E /* TrafficMonitoringAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2D030EB2E3CE405000BE74E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					F2D030F22E3CE405000BE74E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F2D031002E3CE406000BE74E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F2D030F22E3CE405000BE74E;
+					};
+					F2D0310A2E3CE406000BE74E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F2D030F22E3CE405000BE74E;
+					};
+				};
+			};
+			buildConfigurationList = F2D030EE2E3CE405000BE74E /* Build configuration list for PBXProject "TrafficMonitoringApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2D030EA2E3CE405000BE74E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F2D030F42E3CE405000BE74E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D030F22E3CE405000BE74E /* TrafficMonitoringApp */,
+				F2D031002E3CE406000BE74E /* TrafficMonitoringAppTests */,
+				F2D0310A2E3CE406000BE74E /* TrafficMonitoringAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2D030F12E3CE405000BE74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D030FF2E3CE406000BE74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D031092E3CE406000BE74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2D030EF2E3CE405000BE74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D030FD2E3CE406000BE74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D031072E3CE406000BE74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2D031032E3CE406000BE74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D030F22E3CE405000BE74E /* TrafficMonitoringApp */;
+			targetProxy = F2D031022E3CE406000BE74E /* PBXContainerItemProxy */;
+		};
+		F2D0310D2E3CE406000BE74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D030F22E3CE405000BE74E /* TrafficMonitoringApp */;
+			targetProxy = F2D0310C2E3CE406000BE74E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2D031132E3CE406000BE74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WN769F6RDG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2D031142E3CE406000BE74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WN769F6RDG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F2D031162E3CE406000BE74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrafficMonitoringApp/TrafficMonitoringApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WN769F6RDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trartcode.TrafficMonitoringApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F2D031172E3CE406000BE74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrafficMonitoringApp/TrafficMonitoringApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WN769F6RDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trartcode.TrafficMonitoringApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F2D031192E3CE406000BE74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WN769F6RDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trartcode.TrafficMonitoringAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficMonitoringApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrafficMonitoringApp";
+			};
+			name = Debug;
+		};
+		F2D0311A2E3CE406000BE74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WN769F6RDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trartcode.TrafficMonitoringAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficMonitoringApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrafficMonitoringApp";
+			};
+			name = Release;
+		};
+		F2D0311C2E3CE406000BE74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WN769F6RDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trartcode.TrafficMonitoringAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TrafficMonitoringApp;
+			};
+			name = Debug;
+		};
+		F2D0311D2E3CE406000BE74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WN769F6RDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trartcode.TrafficMonitoringAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TrafficMonitoringApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2D030EE2E3CE405000BE74E /* Build configuration list for PBXProject "TrafficMonitoringApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D031132E3CE406000BE74E /* Debug */,
+				F2D031142E3CE406000BE74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D031152E3CE406000BE74E /* Build configuration list for PBXNativeTarget "TrafficMonitoringApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D031162E3CE406000BE74E /* Debug */,
+				F2D031172E3CE406000BE74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D031182E3CE406000BE74E /* Build configuration list for PBXNativeTarget "TrafficMonitoringAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D031192E3CE406000BE74E /* Debug */,
+				F2D0311A2E3CE406000BE74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D0311B2E3CE406000BE74E /* Build configuration list for PBXNativeTarget "TrafficMonitoringAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D0311C2E3CE406000BE74E /* Debug */,
+				F2D0311D2E3CE406000BE74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2D030EB2E3CE405000BE74E /* Project object */;
+}

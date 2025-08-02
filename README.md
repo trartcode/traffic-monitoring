@@ -27,30 +27,18 @@ Traffic Monitoring 是一个专为 macOS 设计的实时流量监控工具，能
 
 ### 方式二：下载已编译应用
 
-> 暂未提供官方 release，如有需求请提交 issue 或自行编译。
+> 打包 [release](https://github.com/trartcode/traffic-monitoring/releases)，建议**自行编译**。
 
 ## 使用说明
 
 1. 启动应用后，Traffic Monitoring 会在菜单栏显示一个网络流量图标。
 
-## 贡献指南
-
-欢迎大家参与开发和改进！如需贡献代码，请遵循以下流程：
-
-1. Fork 本仓库。
-2. 新建分支进行开发。
-3. 提交 Pull Request，并详细描述修改内容。
-
-如有 bug 或建议，请提交 [Issue](https://github.com/trartcode/traffic-monitoring/issues)。
-
-## 许可协议
-
-本项目采用 MIT License，详情请见 [LICENSE](LICENSE)。
 
 ## 联系方式
 
 - 作者: [trartcode](https://github.com/trartcode)
-- 欢迎通过 Issue 联系或提出建议。
+
+- 如有 bug 或建议，请提交 [Issue](https://github.com/trartcode/traffic-monitoring/issues)。
 
 ---
 

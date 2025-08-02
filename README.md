@@ -12,6 +12,7 @@ Traffic Monitoring 是一个专为 macOS 设计的实时流量监控工具，能
 - **实时监控**：实时显示当前网络上传和下载速度。
 - **自启动**：用户可自行设置自启动。
 - **极简**：占用内存低。
+- **示意图**：![示例图片](https://github.com/trartcode/traffic-monitoring/blob/main/Snipaste_2025-08-02_17-32-23.png)
 
 ## 安装方法
 
